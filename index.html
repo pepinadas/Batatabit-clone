@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 </head>
 <body>
     <header>
@@ -125,20 +126,20 @@
             </div>
             <section class="plans-container--slider">
                 <article class="plans-container-card">
+
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Mensual</h3>
+                        <p class="plan-card--price"><span>$</span> 5</p>
+                        <p class="plan-card--saving">* Plan básico para mantenerte informado</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container-card">
                     <p class="recommended">Recomendado</p>
                     <div class="plan-info-container">
                         <h3 class="plan-card--title">Pago Anual</h3>
                         <p class="plan-card--price"><span>$</span> 49</p>
                         <p class="plan-card--saving">* Ahorras $129 comparado al plan mensual</p>
-                        <button class="plan-card--ca">Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="plans-container-card">
-
-                    <div class="plan-info-container">
-                        <h3 class="plan-card--title">Pago Anual</h3>
-                        <p class="plan-card--price"><span>$</span> 5</p>
-                        <p class="plan-card--saving">* Plan básico para mantenerte informado</p>
                         <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
@@ -154,6 +155,17 @@
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li> <a href="#">Linkedin</a></li>
+                <li> <a href="#">Crunchbase</a></li>
+                <li> <a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./assets/img/logo-footer.svg" alt="Logo de Batatabit 2020">
+        </section>
+    </footer>
 </body>
 </html>
